@@ -7,7 +7,7 @@ library(rtracklayer, quietly = TRUE)
 library(Biostrings, quietly = TRUE)
 
 seq <- readDNAStringSet(input_file)
-pqs <- pqsfinder(seq[[1]],run_min_len=3,loop_min_len=1,loop_max_len=7, max_defects=0)
+pqs <- pqsfinder(seq[[1]],run_min_len=3,loop_min_len=1,loop_max_len=10, max_defects=2, deep = TRUE)
 results=pqs@ranges
 results=as(pqs, "GRanges")
 results=renameSeqlevels(results, "chr")
