@@ -1,0 +1,26 @@
+# The adjacency matrix, the number of edges between 2 species
+# file	E_billingiae_protein.faa	E_gerundensis_protein.faa	E_persicina_protein.faa	E_pyrifoliae_protein.faa	E_tasmaniensis_protein.faa	
+E_billingiae_protein.faa	0	3154	3342	2539	2703
+E_gerundensis_protein.faa	3154	0	3002	2382	2497
+E_persicina_protein.faa	3342	3002	0	2538	2731
+E_pyrifoliae_protein.faa	2539	2382	2538	0	2764
+E_tasmaniensis_protein.faa	2703	2497	2731	2764	0
+# file	average number of edges
+E_billingiae_protein.faa	2347.6	
+E_gerundensis_protein.faa	2207	
+E_persicina_protein.faa	2322.6	
+E_pyrifoliae_protein.faa	2044.6	
+E_tasmaniensis_protein.faa	2139	
+# The 2-path matrix, the number of paths between 2 species of length 2
+# file	E_billingiae_protein.faa	E_gerundensis_protein.faa	E_persicina_protein.faa	E_pyrifoliae_protein.faa	E_tasmaniensis_protein.faa	
+E_billingiae_protein.faa(0)	34869410	22829973	23294183	23465916	24020336
+E_gerundensis_protein.faa(1)	45659946	30868653	23405491	22528790	23307572
+E_persicina_protein.faa(2)	46588366	46810982	34080773	23184586	23544452
+E_pyrifoliae_protein.faa(3)	46931832	45057580	46369172	26201585	19742049
+E_tasmaniensis_protein.faa(4)	48040672	46615144	47088904	39484098	28639275
+# file	average number of 2-paths
+E_billingiae_protein.faa(0)	44418045.2
+E_gerundensis_protein.faa(1)	43002461
+E_persicina_protein.faa(2)	44187639.4
+E_pyrifoliae_protein.faa(3)	40808853.4
+E_tasmaniensis_protein.faa(4)	41973618.6
